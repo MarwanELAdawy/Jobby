@@ -1,0 +1,25 @@
+{
+  "name": "jobby",
+  "version": "1.0.0",
+  "description": "A job listing web app using Indreed",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "job",
+    "Indeed",
+    "Indreed"
+  ],
+  "author": "Marwan ElAdawy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-ip": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
